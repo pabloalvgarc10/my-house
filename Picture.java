@@ -20,14 +20,6 @@ public class Picture
     /**
      * Constructor for objects of class Picture
      */
-    public Picture()
-    {
-        // nothing to do... instance variables are automatically set to null
-    }
-
-    /**
-     * Draw this picture.
-     */
     public void draw()
     {
         wall = new Square();
@@ -62,7 +54,17 @@ public class Picture
         sun.moveVertical(40);
         sun.changeSize(80);
         sun.makeVisible();
-        sun.slowMoveVertical(-32);
+        
+    }
+
+    /**
+     * Draw this picture.
+     */
+    public void atardecer()
+    {
+
+        
+        sun.slowMoveVertical(82);
         
     
         
